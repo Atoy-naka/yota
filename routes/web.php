@@ -19,3 +19,4 @@ Route::get('/posts/create', [Postcontroller::class,'create']);
 Route::get('/posts/{post}', [PostController::class, 'show']);
 Route::post('/posts', [Postcontroller::class, 'store']);
 Route::get('/posts/{post}/edit', [PostController::class, 'edit']);
+Route::put('posts/{post}', [PostController::class, 'update']);
