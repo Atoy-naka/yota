@@ -24,7 +24,6 @@
                     </form>
                 </div>
             @endforeach
-            <p>ログインユーザー: {{ Auth::user()->name }}</p>
         </div>
         <div class='paginate'>{{ $posts->links() }}</div>
         <script>
@@ -36,5 +35,6 @@
                 }
             }
         </script>
+        <div class="back">[<a href="/">back</a>]</div>
     </body>
 </html>

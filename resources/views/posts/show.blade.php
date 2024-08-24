@@ -20,7 +20,7 @@
             </div>
         </div>
         
-        <a href="">{{ $post->category->name }}</a>
+        <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
         <div class='footer'>
             <a href="/">戻る</a>
         </div>
